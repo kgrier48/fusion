@@ -1,9 +1,46 @@
 .jumbotron.home{
     height: 100vh;
     background-color: #262626;
+    border-radius: 0px;
+}
+
+.navbar-brand img{
+    height: 100px;
 }
 
 .h1{
-    font-family: 'Work Sans', sans-serif;
+font-family: 'Press Start 2P', cursive !important;
     font-size: 3.6rem;
+}
+
+.h1.hero-text{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 6rem;
+    line-height: 7rem;
+    color: white;
+    letter-spacing: .5rem;
+}
+
+.h1.hero-text .outline{
+    color: transparent;
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.h5 {
+    font-family: 'Press Start 2P', cursive !important;
+    font-size: .8rem !important;
+    letter-spacing: .66rem !important;
+}
+
+.red {
+    color:#dd3333 !important;
+}
+
+.btn-primary{
+    background-color: #dd3333 !important;
+    border-radius: 0px !important;
+    border: 0px !important;
+    color: white !important; 
 }
