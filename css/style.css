@@ -1,6 +1,6 @@
 .jumbotron.home{
     height: 100vh;
-    background-color: #262626;
+    background-color: #ffffff;
     border-radius: 0px;
 }
 
@@ -9,27 +9,30 @@
 }
 
 .h1{
-font-family: 'Press Start 2P', cursive !important;
+    ffont-family: 'Montserrat', sans-serif;
     font-size: 3.6rem;
+    font-weight: bold;
 }
 
+
 .h1.hero-text{
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: 6rem;
     line-height: 7rem;
-    color: white;
+    color: black;
+    font-weight: bold;
     letter-spacing: .5rem;
 }
 
 .h1.hero-text .outline{
     color: transparent;
     -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
 
 .h5 {
-    font-family: 'Press Start 2P', cursive !important;
+    font-family: 'Montserrat', sans-serif;
     font-size: .8rem !important;
     letter-spacing: .66rem !important;
 }
